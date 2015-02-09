@@ -78,7 +78,7 @@ class Hole{
   }
   
   void draw(){
-    ellipse(x, y, size, size);
+    ellipse(width/2, height/2, size, size);
   }
   
 }
@@ -259,3 +259,4 @@ class Timer{
   }
 }
 
+$(window).resize(setup);
